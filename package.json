@@ -1,0 +1,30 @@
+{
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "MaxMines pagination",
+  "devDependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
+    "prop-types": "^15.7.2"
+  },
+  "homepage": "https://maxmines.com",
+  "keywords": [
+    "pagination",
+    "reactjs",
+    "react",
+    "paginate"
+  ],
+  "main": "dist/index.js",
+  "name": "maxmines-pagination",
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "scripts": {
+    "build": "babel ./src --out-dir ./dist -s inline"
+  },
+  "version": "0.0.1"
+}
