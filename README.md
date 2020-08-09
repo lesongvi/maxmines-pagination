@@ -1,3 +1,3 @@
 # maxmines-pagination
-```npm install```
+```npm install```  
 ```npm update```
